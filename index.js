@@ -57,4 +57,4 @@ const {muppetName, color, song, job, partner}=muppet
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 const {song2, song4} = nestedMuppet.album.theMuppetMovie
-const {nestedJob,nestedPartner} = nestedMuppet.splice(3,2)
+const {nestedJob, nestedPartner} = nestedMuppet
